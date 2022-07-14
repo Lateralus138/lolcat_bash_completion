@@ -4,6 +4,7 @@
    1. [Description](#description)
    2. [File Information](#file-information)
       1. [MD5](#md5)
+   3. [Current lolcat Bash Completion File MD5](#current-lolcat-bash-completion-file-md5)
 2. [Usage](#usage)
    1. [Bash Completion](#bash-completion)
    2. [Installation](#installation)
@@ -53,7 +54,12 @@ unset lolcat_opts
 ### File Information
 
 #### MD5
-> // TODO
+
+This information is generated in a *GitHub Action* immediately after the successful build of this project.
+
+### Current lolcat Bash Completion File MD5
+
+![Linux MD5](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Lateralus138/lolcat_bash_completion/master/docs/json/lolcat_complete_md5.json)
 
 ---
 
