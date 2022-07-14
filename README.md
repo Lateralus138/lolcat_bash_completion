@@ -55,7 +55,7 @@ unset lolcat_opts
 
 #### Information
 
-![COMPLETE FILE SIZE](https://img.shields.io/github/size/Lateralus138/lolcat_bash_completion/usr/share/bash-completion/completions/lolcat?label=lolcat%20bash%20completion%20file%20Size&labelColor=1d1d1d&color=ffef00&style=for-the-badge)
+![COMPLETE FILE SIZE](https://img.shields.io/github/size/Lateralus138/lolcat_bash_completion/usr/share/bash-completion/completions/lolcat?label=lolcat%20bash%20completion%20file%20Size&labelColor=1d1d1d&color=ffff99&style=for-the-badge)
 
 #### Current lolcat Bash Completion File MD5
 
