@@ -23,6 +23,8 @@
 
 Very basic Bash completion file for the program 'lolcat' found here (and other forks):
 
+[https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
+
 This simply provides a basic word list of the switches provided in the program; the script verbatim:
 
 ```Bash
@@ -48,8 +50,6 @@ complete -W "$(printf '%s\n' "${lolcat_opts[@]}")" lolcat
 unset lolcat_opts
 
 ```
-
-[https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
 
 ### File Information
 
