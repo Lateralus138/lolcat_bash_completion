@@ -1,20 +1,71 @@
 # lolcat Bash Completion
 
 1. [About](#about)
-2. [LICENSE](#license)
+   1. [Description](#description)
+   2. [File Information](#file-information)
+      1. [MD5](#md5)
+2. [Usage](#usage)
+   1. [Bash Completion](#bash-completion)
+   2. [Installation](#installation)
+3. [LICENSE](#license)
 
 ---
 
 ## About
+
+### Description
 
 <details>
   <summary>Under Construction</summary>
   This README is not finished, but the the script/release should work just fine.
 </details>
 
-Bash completion file for the program 'lolcat' found here (and other forks):
+Very basic Bash completion file for the program 'lolcat' found here (and other forks):
+
+This simply provides a basic word list of the switches provided in the program; the script verbatim:
+
+```Bash
+# Very basic Bash completion for 'lolcat'.
+# Filenames can be implemented if ever a
+# -P, --path, or --file switch is ever
+# added to the program. There are ways
+# this can be achieved without a switch
+# but not always reliable.
+
+lolcat_opts=(
+  -h --help
+  -p --spread
+  -F --freq
+  -S --seed
+  -a --animate
+  -d --duration
+  -s --speed
+  -f --force
+  -v --version
+)
+complete -W "$(printf '%s\n' "${lolcat_opts[@]}")" lolcat
+unset lolcat_opts
+
+```
 
 [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
+
+### File Information
+
+#### MD5
+> // TODO
+
+---
+
+## Usage
+
+### Bash Completion
+
+> // TODO
+
+### Installation
+
+> // TODO
 
 ---
 
