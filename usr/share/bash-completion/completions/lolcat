@@ -1,0 +1,20 @@
+# Very basic Bash completion for 'lolcat'.
+# Filenames can be implemented if ever a
+# -P, --path, or --file switch is ever
+# added to the program. There are ways
+# this can be achieved without a switch
+# but not always reliable.
+
+lolcat_opts=(
+  -h --help
+  -p --spread
+  -F --freq
+  -S --seed
+  -a --animate
+  -d --duration
+  -s --speed
+  -f --force
+  -v --version
+)
+complete -W "$(printf '%s\n' "${lolcat_opts[@]}")" lolcat
+unset lolcat_opts
