@@ -11,7 +11,7 @@ jobs:
       run: |
         file=usr/share/bash-completion/completions/lolcat
         [[ -f "$file" ]] || exit 127
-        lolcat_complete_md5_text='{\n\t"schemaVersion": 1,\n\t"color": "2E9778",\n\t"label": "lolcat Bash Completion MD5",\n\t"message": "PLACEHOLDER",\n\t"labelColor": "1d1d1d",\n\t"style": "for-the-badge",\n\t"namedLogo": "bash"\n}'
+        lolcat_complete_md5_text='{\n\t"schemaVersion": 1,\n\t"color": "ffff99",\n\t"label": "lolcat Bash Completion MD5",\n\t"message": "PLACEHOLDER",\n\t"labelColor": "1d1d1d",\n\t"style": "for-the-badge",\n\t"namedLogo": "bash"\n}'
         if ! [[ -d "docs/json" ]]; then
           mkdir -p docs/json || exit 126
         fi
