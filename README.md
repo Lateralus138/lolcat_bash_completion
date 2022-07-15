@@ -14,6 +14,8 @@
 3. [LICENSE](#license)
 4. [Support Me If You Like](#support-me-if-you-like)
 
+<a href="https://twitter.com/intent/tweet?url=https://github.com/Lateralus138/lolcat_bash_completion%0D%0A&text=%27lolcat_bash_completion%27+-+Bash+completion+for+the+program+%27lolcat%27+via+%40thefluxapex%0D%0A&name=medium&hashtags=bash,lolcat,fun,bashcompletion,Linux,MacOS" target="_blank">![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fwww.github.com%2FLateralus138%2Flolcat_bash_completion&label=Tweet%20This%20Project)</a>
+
 ---
 
 ## About
